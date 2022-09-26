@@ -1,0 +1,95 @@
+h1{
+	color: #47B5FF;
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive; 
+	margin: 30px;
+	background-color: #DFF6FF;
+	border-radius: 12px;
+}
+
+li, p{
+	color: darkblue;
+	font-family: 'Arimo', sans-serif;
+	list-style: none;
+
+}
+ul{
+	padding: 0px;
+}
+
+body {
+	background: linear-gradient(-200deg, lightblue 30%, darkblue 75%);
+	font-family: bebasneue;
+}
+
+h2{
+	font-family: bebasneue;
+	text-decoration: none;
+	color: #1363DF;
+	font-size: 25px;
+}
+
+a{	
+	color: darkblue;
+	font-family: 'Arimo', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+/*custom design*/
+
+/*class*/
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.card-white{width: 500px;
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: 10px 20px 30px rgba(30, 30, 30, 0.3);
+	margin: 30px;
+	padding: 16px;
+	text-align: center;
+}
+
+.btn-blue{
+	background-color: #1363DF;
+	color: whitesmoke;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.btn-blue:hover {
+	background-color: white;
+	transition: O,2s;
+	color: #1363DF;
+}
+
+#card-img {
+	background-image: url(image/logo.png);
+	background-size: cover;
+	background-position: center;
+}
+
+/*Media queries*/
+
+
+@media (max-widht: 720px){
+	.container {
+	width: 450px;
+	
+}
+
+
+
+
+
